@@ -1,0 +1,160 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.tbl {
+
+
+    width: 100%;
+    
+}
+
+
+html, body{
+
+    height: 100%;
+}
+
+.wrapper{
+
+
+    height: 100%;
+}
+
+
+nav{
+
+
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    padding-inline: 1.3rem;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 0;
+
+
+}
+
+nav > h3{
+
+    font-size: 35px;
+}
+
+h3 > a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+
+nav > ul{
+
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 3;
+    font-size: 20px; 
+
+}
+
+li > a{
+
+    text-decoration: none;
+    color: white;
+    transition: text-decoration 1.4s ease-in-out 2s;
+}
+
+
+li > a:hover{
+
+    text-decoration: underline;
+}
+
+.searcher{
+
+
+    margin-top: 150px;
+    
+    
+}
+
+
+.searcher > section{
+
+
+    display: flex;
+    justify-content: center;
+    padding-inline: 100px;
+}
+
+.searchbutton{
+
+    flexgrow: 2;
+    padding-inline: 10px;
+}
+
+
+
+.searchbox{
+
+
+    height: 70px;
+    padding: 10px;
+    flex-grow: 3;
+    
+    font-size: 1.4rem;
+    
+    
+}
+
+
+form{
+
+
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-inline: auto;
+    gap: 10px;
+    align-items: center;
+    
+
+
+}
+
+
+form > input {
+
+    height: 50px;
+    padding: 10px;
+    width: 60%;
+
+
+}
+
+form > button{
+
+
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
